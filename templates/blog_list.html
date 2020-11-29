@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Charile's Blog</title>
+</head>
+<body>
+    <div>
+        <a href="{% url 'home' %}">Charile's Blog</a>
+    </div>
+    <hr>
+    {% for blog in blogs %}
+        <a href="{% url 'blog_detail' blog.pk %}"> {{ blog.title }} </a>
+        {# 字符截取长度为30 #}
+        <p>{{ blog.content | truncatechars:30 }}</p>
+        {# 若for循环为空 #}
+        {% empty %}
+            <p>---暂无博客---</p>
+    {% endfor %}
+    <hr>
+    <p>一共有{{ blogs_count }}篇博客</p>
+</body>
+</html>
