@@ -19,11 +19,29 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="beb9b0fe-5034-412b-9515-b8da1304dd85" name="Default Changelist" comment="feat:First Commit" />
+    <list default="true" id="beb9b0fe-5034-412b-9515-b8da1304dd85" name="Default Changelist" comment="feat:First Commit">
+      <change afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/DjangoBlog.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/DjangoBlog.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/djangoBlogA/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangoBlogA/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/blog_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/blog_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/blog_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/blog_list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/blogs_with_type.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/blogs_with_type.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -35,10 +53,43 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.CommitDialog" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../djangoBlogG" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/templates" />
+      <recent name="$PROJECT_DIR$/blog/templates" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="DjangoProject" type="Python.DjangoServer" factoryName="Django server">
+      <module name="DjangoBlog" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="djangoBlogA.settings" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/../djangoBlogG/djangoBlog/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="http://127.0.0.1:8000/" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -49,6 +100,11 @@
       <option name="presentableId" value="Default" />
       <updated>1606652124187</updated>
       <workItem from="1606652125234" duration="213000" />
+      <workItem from="1607137774697" duration="897000" />
+      <workItem from="1607140611419" duration="872000" />
+      <workItem from="1607141534736" duration="135000" />
+      <workItem from="1607154166479" duration="1560000" />
+      <workItem from="1607155768264" duration="1394000" />
     </task>
     <task id="LOCAL-00001" summary="feat:First Commit">
       <created>1606652214852</created>
@@ -80,16 +136,46 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat:First Commit" />
     <option name="LAST_COMMIT_MESSAGE" value="feat:First Commit" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="317" y="87" width="1286" height="912" key="SettingsEditor" timestamp="1606652336760">
-      <screen x="0" y="27" width="1920" height="1053" />
+    <state x="2334" y="185" width="1092" height="783" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1607155898210">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2334" y="185" width="1092" height="783" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1607155898210" />
+    <state x="2684" y="225" width="381" height="716" key="EnvironmentVariablesDialog" timestamp="1607155730870">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2684" y="225" width="381" height="716" key="EnvironmentVariablesDialog/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1607155730870" />
+    <state x="2610" y="198" width="530" height="646" key="FileChooserDialogImpl" timestamp="1607157069471">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2610" y="198" width="530" height="646" key="FileChooserDialogImpl/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1607157069471" />
+    <state width="1856" height="193" key="GridCell.Tab.0.bottom" timestamp="1607156501866">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1856" height="193" key="GridCell.Tab.0.bottom/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1607156501866" />
+    <state width="1856" height="193" key="GridCell.Tab.0.center" timestamp="1607156501866">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1856" height="193" key="GridCell.Tab.0.center/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1607156501866" />
+    <state width="1856" height="193" key="GridCell.Tab.0.left" timestamp="1607156501866">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1856" height="193" key="GridCell.Tab.0.left/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1607156501866" />
+    <state width="1856" height="193" key="GridCell.Tab.0.right" timestamp="1607156501866">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1856" height="193" key="GridCell.Tab.0.right/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1607156501866" />
+    <state x="2237" y="62" width="1286" height="912" key="SettingsEditor" timestamp="1607157160960">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="317" y="87" width="1286" height="912" key="SettingsEditor/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1606652336760" />
+    <state x="2237" y="62" width="1286" height="912" key="SettingsEditor/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1607157160960" />
     <state x="455" y="193" width="1000" height="700" key="Vcs.Push.Dialog.v2" timestamp="1606652219911">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
